@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "React Crome Extension",
+  "name": "Sand Timer",
   "description": "A react boilerplate for crome extension",
   "version": "1.0.0",
   "icons": {

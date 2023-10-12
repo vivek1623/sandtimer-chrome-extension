@@ -1,4 +1,4 @@
-# React Chrome Extension Boilerplate
+# Sand Timer Chrome Extension
 
 ## Getting Started
 
