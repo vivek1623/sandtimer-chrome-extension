@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Sand Timer",
-  "description": "A react boilerplate for crome extension",
+  "description": "Enhance your efficiency and productivity with the aid of a timer.",
   "version": "1.0.0",
   "icons": {
     "16": "images/icon-16.png",
@@ -15,7 +15,7 @@
       "24": "images/icon-24.png",
       "32": "images/icon-32.png"
     },
-    "default_title": "React Crome Extension tooltip title",
+    "default_title": "Sand Timer",
     "default_popup": "popup.html"
   },
   "options_page": "options.html",

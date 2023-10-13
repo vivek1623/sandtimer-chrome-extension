@@ -1,7 +1,7 @@
 {
-  "name": "react-crome-extension-boilerplate",
+  "name": "sandtimer-chrome-extension",
   "version": "1.0.0",
-  "description": "A reactjs crome extension boilerplate",
+  "description": "Enhance your efficiency and productivity with the aid of a timer.",
   "private": true,
   "scripts": {
     "start": "webpack --watch --progress --config webpack.dev.js",
