@@ -1,9 +1,23 @@
-import React from "react"
-import { createRoot } from 'react-dom/client'
+import React, { useMemo } from "react"
+import { createRoot } from "react-dom/client"
+import { ThemeProvider, createTheme } from "@mui/material/styles"
+import CssBaseline from "@mui/material/CssBaseline"
 
-import "./options.css"
+import "../config/common"
+import "../config/styles.css"
 
-const Options = () => (<p>Options Hello world</p>)
+import themeConfig from "../config/theme"
+
+const Options: React.FC<{}> = () => {
+  let theme = useMemo(() => createTheme(themeConfig), [])
+
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      Options
+    </ThemeProvider>
+  )
+}
 
 const rootElement = document.createElement("div")
 document.body.appendChild(rootElement)
